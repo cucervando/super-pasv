@@ -1,6 +1,6 @@
 module.exports = {
     require: '@babel/register',
     spec: 'specs/**/*.spec.js',
-    ignore: 'spec/example.spec.js',
+    ignore: 'specs/example.spec.js',
     file: 'config/setup.js',
 }
